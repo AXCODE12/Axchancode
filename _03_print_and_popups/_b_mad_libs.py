@@ -8,17 +8,17 @@ if __name__ == '__main__':
     w.withdraw()
     # Put this sentence in a pop-up message box:
     # "If you find yourself having to cross a piranha-infested river, here's how to do it..."
-    messagebox.showinfo('If you find yourself having to cross a piranha-infested river, here''s how to do it...')
+    messagebox.showinfo('madlib ','If you find yourself having to cross a piranha-infested river, here''s how to do it...')
     # Get the player to enter an adjective
-    adj = simpledialog.askstring('Write an adjective')
+    adj = simpledialog.askstring('mb' ,'Write an adjective')
     # Get the player to enter a type of liquid
-    liq = simpledialog.askstring('Write a type of liquid')
+    liq = simpledialog.askstring('mb','Write a type of liquid')
     # Get the player to enter a body part
-    body = simpledialog.askstring('Give a body part')
+    body = simpledialog.askstring('mb','Give a body part')
     # Get the player to enter a verb
-    v = simpledialog.askstring('Enter a verb')
+    v = simpledialog.askstring('mb','Enter a verb')
     # Get the player to enter a place
-    p = simpledialog.askstring('Enter a place')
+    p = simpledialog.askstring('mb','Enter a place')
     # The story below has has been written as a group of Strings joined
     # together by + signs. The story contains place holders, indicated
     # by [** **] which you need to replace with the values entered by the
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     story = (
         "Piranhas are more " + adj + " during the day, so cross the river at\n"
         "night. Piranhas are attracted to fresh " + liq + " and will most\n"
-        "likely take a bite out of your " + body + " if you" + v + ". Whatever\n"
+        "likely take a bite out of your " + body + " if you " + v + ". Whatever\n"
         "you do, if you have an open wound, try to find another way to get "
         "back to the " + p + " Good luck!"
     )
